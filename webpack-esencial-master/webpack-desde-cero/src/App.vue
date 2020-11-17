@@ -23,7 +23,7 @@ export default {
   name: "App",
   components: {
       CatImage: () => import(/* webpackChunkName: "CatImage" , webpackPrefetch: true */ './components/CatImage.vue'),
-      AppOptin: () => import(/* webpackChunkName: "AppOptin" */ './components/AppOptin.vue'),
+      AppOptin: () => import(/* webpackChunkName: "AppOptin" */ './components/AppOptIn.vue'),
   },
   data() {
       return {
